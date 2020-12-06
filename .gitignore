@@ -1,0 +1,3 @@
+SDL\ Platformer/bin/debug/*
+SDL\ Platformer/release/*
+SDL\ Platformer/*.o

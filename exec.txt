@@ -1,0 +1,5 @@
+Run debug:
+g++ -c src/*.cpp -std=c++14 -m64 -g -Wall -I include && g++ *.o -o bin/debug/main -lSDL2 -lSDL2main -lSDL2_image && ./bin/debug/main
+
+Run release:
+g++ -c src/*.cpp -std=c++14 -m64 -03 -Wall -I include && g++ *.o -o bin/release/main -lSDL2 -lSDL2main -lSDL2_image && ./bin/release/main
